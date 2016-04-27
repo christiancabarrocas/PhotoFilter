@@ -10,11 +10,16 @@ Add github "https://github.com/christiancabarrocas/PhotoFilter.git" to your Cart
 
 
 ## Usage
- let imageView = UIImageView()
- let imageView.image = UImage(named:"test.png")
+   let imageView = UIImageView()
+   
+   let imageView.image = UImage(named:"test.png")
 
- imageView.blackAndWhite
- imageView.blur(radius:3.0)
- imageView.sepia(intensity:3.0)
- imageView.exposure(intensity:3.0)
- imageView.bloom(radius:2.0, intensity:1.0)
+   imageView.blackAndWhite
+ 
+   imageView.blur(radius:3.0)
+ 
+   imageView.sepia(intensity:3.0)
+ 
+   imageView.exposure(intensity:3.0)
+ 
+   imageView.bloom(radius:2.0, intensity:1.0)
