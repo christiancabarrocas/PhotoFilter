@@ -10,6 +10,7 @@
 		9EFE29F31CD14768008A7259 /* PhotoFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFE29F21CD14768008A7259 /* PhotoFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EFE29FA1CD14768008A7259 /* PhotoFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFE29EF1CD14768008A7259 /* PhotoFilter.framework */; };
 		9EFE29FF1CD14769008A7259 /* PhotoFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE29FE1CD14769008A7259 /* PhotoFilterTests.swift */; };
+		9EFE2A0A1CD14927008A7259 /* ImageFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE2A091CD14927008A7259 /* ImageFilters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		9EFE29F91CD14768008A7259 /* PhotoFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFE29FE1CD14769008A7259 /* PhotoFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFilterTests.swift; sourceTree = "<group>"; };
 		9EFE2A001CD14769008A7259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFE2A091CD14927008A7259 /* ImageFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		9EFE29F11CD14768008A7259 /* PhotoFilter */ = {
 			isa = PBXGroup;
 			children = (
+				9EFE2A091CD14927008A7259 /* ImageFilters.swift */,
 				9EFE29F21CD14768008A7259 /* PhotoFilter.h */,
 				9EFE29F41CD14768008A7259 /* Info.plist */,
 			);
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFE2A0A1CD14927008A7259 /* ImageFilters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 		9EFE2A041CD14769008A7259 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -321,12 +326,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasabilabs.PhotoFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		9EFE2A051CD14769008A7259 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
