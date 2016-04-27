@@ -316,6 +316,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PhotoFilter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasabilabs.PhotoFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,6 +333,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PhotoFilter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasabilabs.PhotoFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +380,7 @@
 				9EFE2A051CD14769008A7259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EFE2A061CD14769008A7259 /* Build configuration list for PBXNativeTarget "PhotoFilterTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +389,7 @@
 				9EFE2A081CD14769008A7259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
