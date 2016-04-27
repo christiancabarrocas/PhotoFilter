@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6F23981CD14C46006C3D22 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F23971CD14C46006C3D22 /* README.md */; };
 		9EFE29F31CD14768008A7259 /* PhotoFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFE29F21CD14768008A7259 /* PhotoFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EFE29FA1CD14768008A7259 /* PhotoFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFE29EF1CD14768008A7259 /* PhotoFilter.framework */; };
 		9EFE29FF1CD14769008A7259 /* PhotoFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE29FE1CD14769008A7259 /* PhotoFilterTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E6F23971CD14C46006C3D22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9EFE29EF1CD14768008A7259 /* PhotoFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFE29F21CD14768008A7259 /* PhotoFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoFilter.h; sourceTree = "<group>"; };
 		9EFE29F41CD14768008A7259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				9EFE29FE1CD14769008A7259 /* PhotoFilterTests.swift */,
 				9EFE2A001CD14769008A7259 /* Info.plist */,
+				9E6F23971CD14C46006C3D22 /* README.md */,
 			);
 			path = PhotoFilterTests;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6F23981CD14C46006C3D22 /* README.md in Sources */,
 				9EFE29FF1CD14769008A7259 /* PhotoFilterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
